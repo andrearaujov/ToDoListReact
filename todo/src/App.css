@@ -1,108 +1,56 @@
-body {
-  font-family: Arial;
-  background-color: #f5f5f5; /* Usando uma cor mais clara para melhorar a legibilidade */
-  padding: 30px;
-  color: #333;
-  background-image: url('./images/fundo.png');
-  background-position: center;
-  background-size: cover;
-}
-
-.app {
-  max-width: 600px;
-  margin: 0 auto 50px; /* Reduzindo a margem inferior para um espaçamento mais equilibrado */
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionando uma sombra sutil */
-}
-
-h1 {
-  text-align: center;
-  color: #333974; /* Escolhendo uma cor mais vibrante para o título */
-}
-
-h2 {
-  margin-bottom: 20px; /* Aumentando a margem inferior para separar os elementos */
-  color: #333974; /* Usando a mesma cor vibrante para os subtítulos */
-}
-
-p {
-  margin: 10px 0;
-}
-
-input,
-select {
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  width: 100%;
-  transition: border-color 0.3s ease; /* Adicionando uma transição suave para o foco */
-}
-
-input:focus,
-select:focus {
-  outline: none;
-  border-color: #333974; /* Mudando a cor da borda ao focar */
-}
-
-button {
-  background-color: #333974;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  opacity: .8;
-  margin-right: 10px;
-  transition: background-color 0.3s ease; /* Adicionando uma transição suave para a cor de fundo */
-}
-.remove{
-  background-color: #d9534f;
-}
-
-button:hover {
-  opacity: 1;/* Mudando a cor de fundo ao passar o mouse */
-}
-
-.todo-form {
-  padding-bottom: 20px; /* Reduzindo o espaçamento inferior */
-}
-
-.todo-list {
-  margin-bottom: 30px; /* Aumentando o espaçamento inferior */
-}
-
-.todo {
-  background-color: #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 8px;
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100vh;
 }
 
-.todo p {
-  font-size: 16px;
+.login-form {
+  width: 300px;
+  margin-left: 100px; /* Espaço para centralizar à esquerda */
 }
 
-.filter,
-.search {
-  border-bottom: 1px solid #ccc; /* Mudando a cor da borda */
-  margin-bottom: 30px; /* Aumentando o espaçamento inferior */
-  padding-bottom: 20px;
+h1 {
+  text-align: left;
 }
 
-.filter-options {
-  display: flex;
-  justify-content: space-between;
+.form-group {
+  margin-bottom: 15px;
 }
 
-.filter-options div {
-  flex: 1;
-  margin-right: 20px; /* Aumentando a margem direita entre os elementos */
+label {
+  display: block;
 }
 
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.links {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.image-container {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
